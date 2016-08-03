@@ -1,10 +1,10 @@
 {
   "name": "@donotjs/donot-transform-browserify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Browserify for donot.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/*"
+    "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "@donotjs/donot-transform": "^1.0.6",
     "browserify": "^13.1.0",
     "merge": "^1.2.0",
-    "tmp": "0.0.28"
+    "streamifier": "^0.1.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
