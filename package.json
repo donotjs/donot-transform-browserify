@@ -1,6 +1,6 @@
 {
   "name": "@donotjs/donot-transform-browserify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browserify for donot.",
   "main": "index.js",
   "scripts": {

@@ -18,7 +18,7 @@ class BrowserifyTransform extends Transform {
 
 		this.options = merge(options || {}, {
 			debug: true,
-			paths: (options.test ? __dirname + '/node_modules' : path.resolve(__dirname + '/', '../../node_modules'))
+			paths: (options.test ? __dirname + '/node_modules' : path.resolve(__dirname + '/', '../../'))
 		});
 
 	}
